@@ -355,7 +355,7 @@ jobs:
       with:
         python-version: 3.8
     - name: Download artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         path: artifact
     - name: Get branch name
@@ -451,7 +451,7 @@ jobs:
       with:
         python-version: 3.8
     - name: Download artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         path: artifact
     - name: Get branch name
@@ -562,7 +562,7 @@ jobs:
     - name: Free Disk Space
       uses: jlumbroso/free-disk-space@v1.3.1
     - name: Download artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         path: artifact
     - name: Test docker
